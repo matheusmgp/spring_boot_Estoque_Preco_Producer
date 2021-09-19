@@ -1,8 +1,9 @@
 package com.microservico.EstoquePreco.controller;
 
-import com.microservico.EstoquePreco.constantes.RabbitMQConstantes;
-import com.microservico.EstoquePreco.dto.PrecoDto;
+
 import com.microservico.EstoquePreco.services.RabbitMQService;
+import constantes.RabbitMQConstantes;
+import dto.PrecoDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
